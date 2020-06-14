@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
@@ -6,19 +6,23 @@ function MobileNav(props) {
   const [isOpen, setIsOpen] = useState(false);
   const node = useRef();
 
-  const onClick = (e) => {
-    if (node && node.current && node.current.contains(e.target)) {
-      return setIsOpen(!isOpen);
-    }
+  const onClick = useCallback(
+    (e) => {
+      if (node && node.current && node.current.contains(e.target)) {
+        return setIsOpen(!isOpen);
+      }
 
-    return setIsOpen(false);
-  };
+      return setIsOpen(false);
+    },
+    [isOpen]
+  );
+
   useEffect(() => {
     document.addEventListener("mousedown", onClick);
     return () => {
       document.removeEventListener("mousedown", onClick);
     };
-  }, []);
+  }, [onClick]);
 
   return (
     <div ref={node}>

@@ -4,7 +4,7 @@ import "./projectcard.css";
 function ProjectCard(props) {
   return (
     <div className="project-card">
-      <img className="project-image" src={props.image} alt={props.key}></img>
+      <img className="project-image" src={props.image} alt={props.label}></img>
       <div className="project-label">{props.label}</div>
       <div className="project-description">{props.description}</div>
       <a
