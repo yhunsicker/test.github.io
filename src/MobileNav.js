@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
+import CloseIcon from "./CloseIcon";
 
 function MobileNav(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ function MobileNav(props) {
       {isOpen ? (
         <div className="mobile-nav-open">
           <div onClick={onClick} className="mobile-nav-x">
-            X
+            <CloseIcon></CloseIcon>
           </div>
           <Link to="/about" onClick={onClick} className="mobile-nav-item">
             About
