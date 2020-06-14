@@ -23,7 +23,7 @@ function MobileNav(props) {
     return () => {
       document.removeEventListener("mousedown", onClick);
     };
-  }, [onClick]);
+  }, []);
 
   return (
     <div ref={node}>
@@ -35,7 +35,7 @@ function MobileNav(props) {
           <Link to="/about" onClick={onClick} className="mobile-nav-item">
             About
           </Link>
-          <Link to="/Portfolio" onClick={onClick} className="mobile-nav-item">
+          <Link to="/portfolio" onClick={onClick} className="mobile-nav-item">
             Portfolio
           </Link>
           <Link to="/resume" onClick={onClick} className="mobile-nav-item">
