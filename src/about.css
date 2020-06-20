@@ -1,5 +1,64 @@
 .about {
-  margin: 50px auto;
-  font-size: 18px;
   text-align: center;
 }
+.about-title {
+  margin-top: 98px;
+  font-size: 24px;
+  color: #b42d2f;
+  font-weight: bold;
+}
+.about-header-sentence {
+  margin-top: 16px;
+  max-width: 458px;
+  display: inline-block;
+}
+
+/* .contact-box-container {
+  background-image: url(./yuli-river.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 587px;
+  position: relative;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 0.7);
+  max-width: 402px;
+  max-height: 312px;
+  border-radius: 3px;
+}
+
+.contact-box-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b42d2f;
+}
+
+.contact-box-message {
+  max-width: 312px;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 16px auto;
+} */
+
+/* @media (max-width: 650px) {
+  .contact-box-container {
+    background-image: url(./yuli-river-2.jpg);
+    background-size: contain;
+  }
+
+  .contact-box {
+    top: 0;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+  }
+
+  .contact-box-message {
+    margin: 0 auto;
+  }
+
+  .contact-box-title {
+    padding: 0;
+  }
+} */
