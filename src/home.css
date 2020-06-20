@@ -49,6 +49,7 @@
   .home-content {
     max-width: 350px;
     margin: 20px 12px;
+    line-height: 1.25;
   }
 
   .logo-home {
@@ -61,5 +62,6 @@
 
   .home-title {
     margin-top: 48px;
+    font-weight: bold;
   }
 }

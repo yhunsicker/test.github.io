@@ -11,7 +11,11 @@ const heartIcon = (
 );
 function Footer(props) {
   return (
-    <div className="footer">Crafted with {heartIcon} by yours truly | 2020</div>
+    <div className="footer">
+      Crafted with
+      {heartIcon}
+      by yours truly | 2020
+    </div>
   );
 }
 
