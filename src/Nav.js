@@ -1,17 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./nav.css";
 import resume from "./yhunsicker-resume.pdf";
 
 function Nav(props) {
   return (
     <div className="nav">
-      <Link to="/about" className="link">
+      <NavLink to="/about" className="link" activeClassName="active-link">
         About
-      </Link>
-      <Link to="/portfolio" className="link">
+      </NavLink>
+      <NavLink to="/portfolio" className="link" activeClassName="active-link">
         Portfolio
-      </Link>
+      </NavLink>
       <a target="_blank" href={resume} rel="noopener noreferrer">
         Resume
       </a>

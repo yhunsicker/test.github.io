@@ -13,6 +13,10 @@ a {
   display: none;
 }
 
+.active-link {
+  color: #b42d2f;
+}
+
 @media (max-width: 650px) {
   .nav {
     display: none;

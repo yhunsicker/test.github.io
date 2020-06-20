@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 15%;
+  margin-bottom: 40px;
+  opacity: 0.9;
+  color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart-icon {
+  width: 20px;
+  fill: #b42d2f;
+  margin: 0px 5px;
+}

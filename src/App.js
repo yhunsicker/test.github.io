@@ -6,6 +6,7 @@ import Portfolio from "./Portfolio";
 import Header from "./Header";
 import About from "./About";
 import ErrorPage from "./Error";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio}></Route>
         <Route component={ErrorPage}></Route>
       </Switch>
+      <Footer></Footer>
     </div>
   );
 }
