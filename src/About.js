@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./about.css";
 import ContactBox from "./ContactBox";
 import yuliAbout from "./yuli-about.jpg";
@@ -7,7 +7,45 @@ import travelIcon from "./travel.jpg";
 import amsterdamIcon from "./amsterdam.jpg";
 import gaIcon from "./ga.jpg";
 
+// https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+
+function debounce(fn, ms) {
+  let timer;
+
+  return (_) => {
+    clearTimeout(timer);
+    timer = setTimeout((_) => {
+      timer = null;
+      fn.apply(this, arguments);
+    }, ms);
+  };
+}
+
 function About(props) {
+  const [dimensions, setDimensions] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
+
+  useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    }, 100);
+
+    window.addEventListener("resize", debouncedHandleResize);
+
+    return (_) => {
+      window.removeEventListener("resize", debouncedHandleResize);
+    };
+  });
+
+  const isPhoneWidth = dimensions.width < 650;
+
+  const pickClassName = (x, y) => (isPhoneWidth ? x : y);
+
   return (
     <div className="about">
       <div className="about-title">About Me</div>
@@ -15,8 +53,21 @@ function About(props) {
         The journey to my becoming a UX Designer was definitely the road less
         traveled and I loved every moment of it.
       </div>
-      <img className="about-image-yuli" src={yuliAbout} alt="yuli-about"></img>
+      <img
+        className={pickClassName("about-image-yuli", "dont-display")}
+        src={yuliAbout}
+        alt="yuli-about"
+      ></img>
       <div className="about-container-one">
+        {/* <div
+          className={pickClassName("dont-display", "about-image-yuli-sidebar")}
+        >
+          <img
+            className="about-image-yuli"
+            src={yuliAbout}
+            alt="yuli-about"
+          ></img>
+        </div> */}
         <div className="line-container">
           <img className="oval-icon" src={ovalIcon} alt="oval-icon"></img>
           <div className="line-one"></div>
@@ -32,7 +83,11 @@ function About(props) {
           <div className="line-two"></div>
         </div>
         <div>
-          <div className="about-content-title-red">Human Rights</div>
+          <div
+            className={pickClassName("about-content-title-red", "dont-display")}
+          >
+            Human Rights
+          </div>
 
           <div className="about-content-title">Child Protection Specialist</div>
           <div className="about-content-message">
@@ -58,7 +113,11 @@ function About(props) {
           <div className="line-three"></div>
         </div>
         <div>
-          <div className="about-content-title-red">Full-Stack Development</div>
+          <div
+            className={pickClassName("about-content-title-red", "dont-display")}
+          >
+            Full-Stack Development
+          </div>
 
           <div className="about-content-title">Decided to Code</div>
           <div className="about-content-message">
@@ -81,7 +140,11 @@ function About(props) {
           <div className="line-four"></div>
         </div>
         <div>
-          <div className="about-content-title-red">UX Design</div>
+          <div
+            className={pickClassName("about-content-title-red", "dont-display")}
+          >
+            UX Design
+          </div>
 
           <div className="about-content-title">
             Became a User Experience Designer

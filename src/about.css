@@ -17,7 +17,13 @@
 .about-image-yuli {
   display: block;
   margin: 0 auto;
+  width: 142px;
+  height: 128px;
 }
+
+/* .about-image-yuli-sidebar {
+  width: 30px;
+} */
 
 .about-container-one {
   display: flex;
@@ -35,7 +41,7 @@
   font-size: 16px;
   text-align: left;
   line-height: 1.25;
-  max-width: 232px;
+  max-width: 472px;
 }
 
 .about-content-title-red {
@@ -48,7 +54,7 @@
 
 .line-container {
   width: 20px;
-  margin: 0px 47px 0px auto;
+  margin: 0px 62px 0px auto;
   display: flex;
   flex-direction: column;
   margin-left: 15%;
@@ -59,17 +65,17 @@
 
 .line-one {
   border-left: 1px solid #979797;
-  height: 51px;
+  height: 44px;
 }
 
 .line-two {
   border-left: 1px solid #979797;
-  height: 455px;
+  height: 160px;
 }
 
 .line-three {
   border-left: 1px solid #979797;
-  height: 455px;
+  height: 154px;
 }
 
 /* this line is invisible and is just there to give 
@@ -160,10 +166,11 @@ height to a div so the icon above it flexes correctly */
   display: block;
 }
 
+.dont-display {
+  display: none;
+}
+
 @media (max-width: 650px) {
-  .about-header-sentence {
-    width: 304px;
-  }
   .contact-box-container {
     padding-bottom: 335px;
   }
@@ -182,5 +189,105 @@ height to a div so the icon above it flexes correctly */
   }
   .contact-box-title {
     padding-top: 61px;
+  }
+
+  .about {
+    text-align: center;
+  }
+  .about-title {
+    margin-top: 98px;
+    font-size: 24px;
+    color: #b42d2f;
+    font-weight: bold;
+  }
+  .about-header-sentence {
+    margin-top: 16px;
+    max-width: 458px;
+    display: inline-block;
+    margin-bottom: 48px;
+    width: 304px;
+  }
+
+  .about-image-yuli {
+    display: block;
+    margin: 0 auto;
+    width: 142px;
+    height: 128px;
+  }
+
+  .about-container-one {
+    display: flex;
+    margin: 19px 15% 0px auto;
+  }
+
+  .about-content-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .about-content-message {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.25;
+    max-width: 232px;
+  }
+
+  .about-content-title-red {
+    font-size: 24px;
+    color: #b42d2f;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .line-container {
+    width: 20px;
+    margin: 0px 47px 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+  }
+
+  .line-one {
+    border-left: 1px solid #979797;
+    height: 51px;
+  }
+
+  .line-two {
+    border-left: 1px solid #979797;
+    height: 455px;
+  }
+
+  .line-three {
+    border-left: 1px solid #979797;
+    height: 455px;
+  }
+
+  /* this line is invisible and is just there to give 
+height to a div so the icon above it flexes correctly */
+  .line-four {
+    height: 300px;
+  }
+
+  .oval-icon {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 18px;
+  }
+
+  .travel-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 18px;
+  }
+
+  .ga-icon {
+    width: 80px;
+    height: 80px;
   }
 }
