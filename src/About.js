@@ -12,7 +12,7 @@ function About(props) {
     <div className="about">
       <div className="about-title">About Me</div>
       <div className="about-header-sentence">
-        The journey to my becoming an UX Designer was definitely the road less
+        The journey to my becoming a UX Designer was definitely the road less
         traveled and I loved every moment of it.
       </div>
       <img className="about-image-yuli" src={yuliAbout} alt="yuli-about"></img>
