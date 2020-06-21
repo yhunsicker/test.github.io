@@ -141,6 +141,24 @@ height to a div so the icon above it flexes correctly */
   margin: 25px auto 0px auto;
 }
 
+.linkedin-icon {
+  height: 25px;
+  width: 26px;
+}
+
+.email-icon {
+  height: 27px;
+  width: 27px;
+  display: block;
+  margin-right: 3px;
+}
+
+.instagram-icon {
+  height: 23px;
+  width: 23px;
+  display: block;
+}
+
 @media (max-width: 650px) {
   .about-header-sentence {
     width: 304px;

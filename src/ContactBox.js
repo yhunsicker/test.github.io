@@ -3,6 +3,8 @@ import instagramLogo from "./instagram.png";
 import emailLogo from "./email.png";
 import linkedinLogo from "./linkedin.png";
 
+// css in about.css
+
 function ContactBox(props) {
   return (
     <div className="contact-box-container">
@@ -18,17 +20,25 @@ function ContactBox(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedinLogo} alt="linkedin.png"></img>
+            <img
+              src={linkedinLogo}
+              alt="linkedin.png"
+              className="linkedin-icon"
+            ></img>
           </a>
           <a href="mailto:yhunsicker@gmail.com">
-            <img src={emailLogo} alt="email.png"></img>
+            <img src={emailLogo} alt="email.png" className="email-icon"></img>
           </a>
           <a
             href="https://www.instagram.com/ashortyabroad/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={instagramLogo} alt="instagram.png"></img>
+            <img
+              src={instagramLogo}
+              alt="instagram.png"
+              className="instagram-icon"
+            ></img>
           </a>
         </div>
       </div>

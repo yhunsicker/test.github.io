@@ -84,7 +84,7 @@ function About(props) {
           <div className="about-content-title-red">UX Design</div>
 
           <div className="about-content-title">
-            Became an User Experience Designer
+            Became a User Experience Designer
           </div>
           <div className="about-content-message">
             I very much have an interdisciplinary approach to user experience

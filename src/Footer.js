@@ -9,9 +9,13 @@ const heartIcon = (
     />
   </svg>
 );
+
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 function Footer(props) {
   return (
-    <div className="footer">
+    <div className="footer" onClick={scrollToTop}>
       Crafted with
       {heartIcon}
       by yours truly | 2020
