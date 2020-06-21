@@ -11,54 +11,74 @@
   margin-top: 16px;
   max-width: 458px;
   display: inline-block;
+  margin-bottom: 48px;
 }
 
-/* .contact-box-container {
-  background-image: url(./yuli-river.jpg);
+.contact-box-container {
+  background-image: url(yuli-river.jpg);
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 587px;
+  height: 0;
+  padding-bottom: 60%;
+  min-width: 80%;
   position: relative;
+  margin: 0 auto;
 }
 
 .contact-box {
   background: rgba(255, 255, 255, 0.7);
-  max-width: 402px;
-  max-height: 312px;
+  width: 402px;
   border-radius: 3px;
+  height: 50%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  max-height: 90%;
+  height: 312px;
 }
 
 .contact-box-title {
+  padding-top: 77px;
   font-size: 24px;
-  font-weight: bold;
   color: #b42d2f;
+  font-weight: bold;
 }
 
 .contact-box-message {
-  max-width: 312px;
   line-height: 1.25;
   color: rgba(0, 0, 0, 0.85);
-  margin: 16px auto;
-} */
+  min-width: 312px;
+  max-width: 70%;
+  margin: 15px auto 0px auto;
+}
 
-/* @media (max-width: 650px) {
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  margin: 25px auto 0px auto;
+}
+
+@media (max-width: 650px) {
   .contact-box-container {
-    background-image: url(./yuli-river-2.jpg);
-    background-size: contain;
+    padding-bottom: 335px;
   }
 
   .contact-box {
+    width: 350px;
+    height: 280px;
     top: 0;
-    padding: 20px;
-    margin: 0;
-    position: relative;
+    margin-top: 24px;
+    left: 50%;
+    margin-left: -175px;
   }
 
   .contact-box-message {
-    margin: 0 auto;
+    width: 100%;
   }
-
   .contact-box-title {
-    padding: 0;
+    padding-top: 61px;
   }
-} */
+}
