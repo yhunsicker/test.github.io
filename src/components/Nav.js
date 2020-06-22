@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./nav.css";
-import resume from "./yhunsicker-resume.pdf";
+import "../css/nav.css";
+import resume from "../yhunsicker-resume.pdf";
 
 function Nav(props) {
   return (

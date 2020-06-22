@@ -14,6 +14,7 @@
   margin-bottom: 48px;
   padding-bottom: 48px;
   font-size: 20px;
+  line-height: 24px;
 }
 
 .about-image-yuli {
@@ -35,15 +36,15 @@
 }
 
 .human-rights {
-  margin-top: 112px;
+  margin-top: 90px;
 }
 
 .full-stack {
-  margin-top: 255px;
+  margin-top: 270px;
 }
 
 .ux-design {
-  margin-top: 245px;
+  margin-top: 234px;
 }
 
 .about-content-message {
@@ -124,7 +125,7 @@ height to a div so the icon above it flexes correctly */
 }
 
 .contact-box-container {
-  background-image: url(yuli-river.jpg);
+  background-image: url(../images/yuli-river.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,12 +137,12 @@ height to a div so the icon above it flexes correctly */
 }
 
 .contact-box {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   width: 402px;
   border-radius: 3px;
   height: 50%;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 5%;
   max-height: 90%;
   height: 312px;
@@ -168,6 +169,10 @@ height to a div so the icon above it flexes correctly */
   justify-content: space-around;
   width: 150px;
   margin: 25px auto 0px auto;
+}
+
+.contact-link:hover {
+  fill: #b42d2f;
 }
 
 .linkedin-icon {
@@ -230,13 +235,14 @@ height to a div so the icon above it flexes correctly */
     width: 304px;
     padding-bottom: 0;
     font-size: 16px;
+    line-height: normal;
   }
 
   .about-image-yuli {
     display: block;
     margin: 0 auto;
-    width: 142px;
-    height: 128px;
+    width: 152px;
+    height: 138px;
   }
 
   .about-container-one {

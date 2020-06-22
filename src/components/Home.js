@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./yuli-home.jpg";
-import "./home.css";
+import logo from "../images/yuli-home.jpg";
+import "../css/home.css";
 import Button from "./Button";
 
 function Home(props) {

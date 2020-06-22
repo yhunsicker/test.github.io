@@ -4,6 +4,10 @@
   font-size: 20px;
 }
 
+.title:hover {
+  color: #b42d2f;
+}
+
 .logo {
   height: 30px;
   width: 30px;

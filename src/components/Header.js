@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import Title from "./Title";
 import MobileNav from "./MobileNav";
-import "./header.css";
+import "../css/header.css";
 
 function Header(props) {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 650);

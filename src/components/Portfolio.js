@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import "./portfolio.css";
-import logoPfizer from "./project-pfizer.jpg";
-import logoBi from "./project-bi.jpg";
-import logoCotripper from "./project-cotripper.jpg";
-import logoOptimize from "./project-optimize.jpg";
-import logoDc from "./project-dc.jpg";
-import logoGhostpay from "./project-ghostpay.jpg";
+import "../css/portfolio.css";
+import logoPfizer from "../images/project-pfizer.jpg";
+import logoBi from "../images/project-bi.jpg";
+import logoCotripper from "../images/project-cotripper.jpg";
+import logoOptimize from "../images/project-optimize.jpg";
+import logoDc from "../images/project-dc.jpg";
+import logoGhostpay from "../images/project-ghostpay.jpg";
 
 const projectList = [
   {

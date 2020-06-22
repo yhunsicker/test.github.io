@@ -6,7 +6,7 @@
 
 .home-container {
   display: flex;
-  margin: 293px auto 0 auto;
+  margin: 15% auto 0 auto;
   justify-content: center;
 }
 
@@ -14,12 +14,14 @@
   color: #b42d2f;
   font-size: 30px;
   font-weight: bold;
+  line-height: 34px;
 }
 
 .home-content {
   margin-top: 14px;
   width: 527px;
   font-size: 20px;
+  line-height: 24px;
 }
 
 .button {
@@ -56,11 +58,10 @@
     margin: 20px 12px;
     line-height: 1.25;
     font-size: 16px;
+    line-height: normal;
   }
 
   .logo-home {
-    height: 112px;
-    width: 112px;
     margin: 0 auto;
   }
 
@@ -73,5 +74,6 @@
     margin-top: 48px;
     font-weight: bold;
     font-size: 24px;
+    line-height: normal;
   }
 }

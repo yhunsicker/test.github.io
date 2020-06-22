@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import "./about.css";
+import "../css/about.css";
 import ContactBox from "./ContactBox";
-import yuliAbout from "./yuli-about.jpg";
-import ovalIcon from "./oval.png";
-import travelIcon from "./travel.jpg";
-import amsterdamIcon from "./amsterdam.jpg";
-import gaIcon from "./ga.jpg";
+import yuliAbout from "../images/yuli-about.jpg";
+import ovalIcon from "../images/oval.png";
+import travelIcon from "../images/travel.jpg";
+import amsterdamIcon from "../images/amsterdam.jpg";
+import gaIcon from "../images/ga.jpg";
 
 // https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
 

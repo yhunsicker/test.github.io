@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./yuli-logo.jpg";
-import "./title.css";
+import logo from "../images/yuli-logo.jpg";
+import "../css/title.css";
 
 function Title(props) {
   return (

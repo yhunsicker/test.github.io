@@ -1,7 +1,7 @@
 import React from "react";
-import instagramLogo from "./instagram.png";
-import emailLogo from "./email.png";
-import linkedinLogo from "./linkedin.png";
+import instagramLogo from "../images/instagram.png";
+import emailLogo from "../images/email.png";
+import linkedinLogo from "../images/linkedin.png";
 
 // css in about.css
 
@@ -23,11 +23,15 @@ function ContactBox(props) {
             <img
               src={linkedinLogo}
               alt="linkedin.png"
-              className="linkedin-icon"
+              className="linkedin-icon contact-link"
             ></img>
           </a>
           <a href="mailto:yhunsicker@gmail.com">
-            <img src={emailLogo} alt="email.png" className="email-icon"></img>
+            <img
+              src={emailLogo}
+              alt="email.png"
+              className="email-icon contact-link"
+            ></img>
           </a>
           <a
             href="https://www.instagram.com/ashortyabroad/"
@@ -37,7 +41,7 @@ function ContactBox(props) {
             <img
               src={instagramLogo}
               alt="instagram.png"
-              className="instagram-icon"
+              className="instagram-icon contact-link"
             ></img>
           </a>
         </div>

@@ -17,3 +17,7 @@
   fill: #b42d2f;
   margin: 1px 5px 0px 5px;
 }
+
+.footer:hover .heart-icon {
+  fill: #721d1e;
+}

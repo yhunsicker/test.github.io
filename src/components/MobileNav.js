@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-import "./nav.css";
+import "../css/nav.css";
 import CloseIcon from "./CloseIcon";
 
 function MobileNav(props) {

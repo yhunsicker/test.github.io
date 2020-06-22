@@ -38,6 +38,10 @@
   right: 30px;
 }
 
+.project-link:hover {
+  color: #721d1e;
+}
+
 .project-link::after {
   content: "";
   width: 80%;
