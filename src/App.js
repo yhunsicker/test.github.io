@@ -7,8 +7,13 @@ import Header from "./Header";
 import About from "./About";
 import ErrorPage from "./Error";
 import Footer from "./Footer";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
+
+  const isHome = location.pathname === "/" ? true : false;
+
   return (
     <div className="App">
       <Header />
@@ -18,7 +23,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio}></Route>
         <Route component={ErrorPage}></Route>
       </Switch>
-      <Footer></Footer>
+      {!isHome && <Footer></Footer>}
     </div>
   );
 }

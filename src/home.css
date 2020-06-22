@@ -1,6 +1,6 @@
 .logo-home {
-  height: 112px;
-  width: 112px;
+  height: 140px;
+  width: 140px;
   margin-right: 58px;
 }
 
@@ -12,13 +12,14 @@
 
 .home-title {
   color: #b42d2f;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .home-content {
   margin-top: 14px;
   width: 527px;
+  font-size: 20px;
 }
 
 .button {
@@ -30,11 +31,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.38;
   margin-top: 30px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background-color: #721d1e;
 }
 
 @media (max-width: 650px) {
@@ -50,18 +55,23 @@
     max-width: 350px;
     margin: 20px 12px;
     line-height: 1.25;
+    font-size: 16px;
   }
 
   .logo-home {
+    height: 112px;
+    width: 112px;
     margin: 0 auto;
   }
 
   .button {
     margin: 40px auto;
+    font-size: 16px;
   }
 
   .home-title {
     margin-top: 48px;
     font-weight: bold;
+    font-size: 24px;
   }
 }

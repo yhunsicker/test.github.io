@@ -12,7 +12,12 @@ function Nav(props) {
       <NavLink to="/portfolio" className="link" activeClassName="active-link">
         Portfolio
       </NavLink>
-      <a target="_blank" href={resume} rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href={resume}
+        rel="noopener noreferrer"
+        className="link"
+      >
         Resume
       </a>
     </div>

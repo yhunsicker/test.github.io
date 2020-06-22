@@ -1,12 +1,13 @@
 .nav {
   display: flex;
-  width: 200px;
+  width: 300px;
   justify-content: space-between;
   align-items: center;
 }
 
 a {
   text-decoration: none;
+  font-size: 20px;
 }
 
 .mobile-nav-closed {
@@ -14,6 +15,10 @@ a {
 }
 
 .active-link {
+  color: #b42d2f;
+}
+
+.link:hover {
   color: #b42d2f;
 }
 
@@ -59,5 +64,13 @@ a {
     margin: 14px auto;
     font-size: 18px;
     opacity: 0.7;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .nav {
+    width: 200px;
   }
 }
