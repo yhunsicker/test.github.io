@@ -21,3 +21,13 @@
 .footer:hover .heart-icon {
   fill: #721d1e;
 }
+
+@media (max-width: 650px) {
+  .footer:hover .heart-icon {
+    fill: #b42d2f;
+  }
+
+  .footer:active .heart-icon {
+    fill: #721d1e;
+  }
+}
