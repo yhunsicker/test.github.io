@@ -12,11 +12,11 @@
   max-width: 458px;
   display: inline-block;
   margin-bottom: 48px;
+  padding-bottom: 48px;
 }
 
 .about-image-yuli {
   display: block;
-  margin: 0 auto;
   width: 142px;
   height: 128px;
 }
@@ -27,7 +27,7 @@
 
 .about-container-one {
   display: flex;
-  margin: 19px 15% 0px auto;
+  margin: 50px 20px 0px auto;
 }
 
 .about-content-title {
@@ -35,6 +35,18 @@
   margin-bottom: 16px;
   text-align: left;
   font-weight: 600;
+}
+
+.human-rights {
+  margin-top: 112px;
+}
+
+.full-stack {
+  margin-top: 255px;
+}
+
+.ux-design {
+  margin-top: 245px;
 }
 
 .about-content-message {
@@ -50,6 +62,19 @@
   font-weight: bold;
   text-align: left;
   margin-bottom: 15px;
+}
+
+.about-sidebar {
+  width: 200px;
+  margin-top: -30px;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-sidebar-container {
+  display: flex;
+  justify-content: center;
 }
 
 .line-container {
@@ -81,7 +106,7 @@
 /* this line is invisible and is just there to give 
 height to a div so the icon above it flexes correctly */
 .line-four {
-  height: 300px;
+  height: 100px;
 }
 
 .oval-icon {
@@ -206,6 +231,7 @@ height to a div so the icon above it flexes correctly */
     display: inline-block;
     margin-bottom: 48px;
     width: 304px;
+    padding-bottom: 0;
   }
 
   .about-image-yuli {
@@ -225,6 +251,7 @@ height to a div so the icon above it flexes correctly */
     margin-bottom: 16px;
     text-align: left;
     font-weight: 600;
+    margin-top: 10px;
   }
 
   .about-content-message {
@@ -240,6 +267,7 @@ height to a div so the icon above it flexes correctly */
     font-weight: bold;
     text-align: left;
     margin-bottom: 15px;
+    margin-top: 0;
   }
 
   .line-container {
