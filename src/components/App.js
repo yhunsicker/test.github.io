@@ -22,7 +22,7 @@ function App() {
           params={{
             particles: {
               number: {
-                value: 160,
+                value: 170,
                 density: {
                   enable: false,
                 },
@@ -30,8 +30,18 @@ function App() {
               color: {
                 value: "random",
               },
+              // opacity: {
+              //   value: 1,
+              //   random: false,
+              //   anim: {
+              //     enable: false,
+              //     speed: 2,
+              //     opacity_min: 0,
+              //     sync: false,
+              //   },
+              // },
               size: {
-                value: 3,
+                value: 4,
                 random: true,
                 anim: {
                   speed: 4,
