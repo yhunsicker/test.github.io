@@ -28,7 +28,7 @@ function App() {
                 },
               },
               color: {
-                value: "#b42d2f",
+                value: "random",
               },
               size: {
                 value: 3,
@@ -43,35 +43,35 @@ function App() {
               },
               move: {
                 random: true,
-                speed: 1,
+                speed: 2,
                 // direction: "top",
                 out_mode: "out",
               },
             },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: "bubble",
-                },
-                onclick: {
-                  enable: true,
-                  mode: "repulse",
-                },
-              },
-              modes: {
-                bubble: {
-                  distance: 250,
-                  duration: 2,
-                  size: 0,
-                  opacity: 0,
-                },
-                repulse: {
-                  distance: 400,
-                  duration: 4,
-                },
-              },
-            },
+            // interactivity: {
+            //   events: {
+            //     onhover: {
+            //       enable: true,
+            //       mode: "bubble",
+            //     },
+            //     onclick: {
+            //       enable: true,
+            //       mode: "repulse",
+            //     },
+            //   },
+            //   modes: {
+            //     bubble: {
+            //       distance: 250,
+            //       duration: 2,
+            //       size: 0,
+            //       opacity: 0,
+            //     },
+            //     repulse: {
+            //       distance: 400,
+            //       duration: 4,
+            //     },
+            //   },
+            // },
           }}
           style={{
             position: "absolute",
