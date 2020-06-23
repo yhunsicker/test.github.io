@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../css/app.css";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
@@ -10,10 +10,44 @@ import Footer from "./Footer";
 import { useLocation } from "react-router-dom";
 import { Particles } from "react-particles-js";
 
+function debounce(fn, ms) {
+  let timer;
+
+  return (_) => {
+    clearTimeout(timer);
+    timer = setTimeout((_) => {
+      timer = null;
+      fn.apply(this, arguments);
+    }, ms);
+  };
+}
+
 function App() {
   const location = useLocation();
 
   const isHome = location.pathname === "/" ? true : false;
+
+  const [dimensions, setDimensions] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
+
+  useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    }, 100);
+
+    window.addEventListener("resize", debouncedHandleResize);
+
+    return (_) => {
+      window.removeEventListener("resize", debouncedHandleResize);
+    };
+  });
+
+  const isPhoneWidth = dimensions.width < 650;
 
   return (
     <div className="app">
@@ -22,7 +56,7 @@ function App() {
           params={{
             particles: {
               number: {
-                value: 170,
+                value: isPhoneWidth ? 50 : 160,
                 density: {
                   enable: false,
                 },
@@ -53,7 +87,7 @@ function App() {
               },
               move: {
                 random: true,
-                speed: 2,
+                speed: 1,
                 // direction: "top",
                 out_mode: "out",
               },
