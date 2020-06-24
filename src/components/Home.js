@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../images/yuli-home.jpg";
 import "../css/home.css";
 import Button from "./Button";
+import { useHistory } from "react-router-dom";
 
 function Home(props) {
+  const history = useHistory();
+
+  useEffect(() => {
+    console.log("route has been changed", history);
+    history.push("/");
+  }, [history.location.pathname]);
+
   return (
     <div className="home-container">
       <img src={logo} className="logo-home" alt="home-logo.png"></img>

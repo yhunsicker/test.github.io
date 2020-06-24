@@ -134,7 +134,7 @@ function App() {
         <Route path="/" component={Home} exact></Route>
         <Route path="/about" component={About} exact></Route>
         <Route path="/portfolio" component={Portfolio}></Route>
-        <Route component={ErrorPage}></Route>
+        <Route component={Home}></Route>
       </Switch>
       {!isHome && <Footer></Footer>}
     </div>
