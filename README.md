@@ -4,20 +4,30 @@
 
 Changes must be made on the `dev` branch. Never checkout to master, or deal with it at all.
 
-After making changes, you can update dev on github by...
+When cloning this repo, you should arrive at the `dev` branch automatically. If that is not the case,
+be sure to `git checkout dev` before making any changes.
 
-`git add .`
-`git commit -m "A message about your updates in quotes."`
-`git push`
+From `dev`, you can rum `npm start` from the root to run a local version of the app.
+It will open automatically. Use `ctrl + c` in the terminal to abort this process.
 
-The command to actually rebuild and redeploy this site should be run from `dev` as
+After making changes, you can update dev on github to record your changes with these commands:
+
+```
+git add .
+git commit -m "A message about your updates in quotes."
+git push
+```
+
+The command to actually rebuild and redeploy this site should be run from the root of the repo on branch `dev`:
 
 `npm run deploy`.
 
-This actually creates changes on master and pushes the changed files on it.
+This actually creates changes on `master` branch and pushes the changed files on it to github,
+where github will take the processed file information and deploy the site automatically after the command finishes.
+It takes GitHub up to 20 minutes to update the deployed site.
 
 You should never need to mess with master. In a worse case scenario, you can delete the local and remote versions
-of master by using
+of master by using.
 
 ```
 // delete branch locally
@@ -27,7 +37,7 @@ git branch -d master
 git push origin --delete master
 ```
 
-to "reset" them. Then `npm run deploy` should re-create them as needed.
+to "reset" them. Then `npm run deploy` from `dev` should re-create them as needed.
 
 As a final step, navigate to the repository (https://github.com/yhunsicker/yhunsicker.github.io),
 and switch to the `master` branch (on github's site - again, do not mess with master on your terminal/locally).
