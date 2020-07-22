@@ -10,11 +10,16 @@ function Nav(props) {
         to="/about"
         className="link"
         activeClassName="active-link"
-        title="About Page of Yhunsicker"
+        title="About Yhunsicker"
       >
         About
       </NavLink>
-      <NavLink to="/portfolio" className="link" activeClassName="active-link">
+      <NavLink
+        to="/portfolio"
+        className="link"
+        activeClassName="active-link"
+        title="View Yhunsicker's Work Portfolio"
+      >
         Portfolio
       </NavLink>
       <a
@@ -22,6 +27,7 @@ function Nav(props) {
         href={resume}
         rel="noopener noreferrer"
         className="link"
+        title="View or Download Yhunsicker's Resume"
       >
         Resume
       </a>

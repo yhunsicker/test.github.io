@@ -7,7 +7,9 @@ function Title(props) {
   return (
     <Link to="/" className="title">
       <img src={logo} className="logo" alt="logo.jpg"></img>
-      <div>Yu-Li Hunsicker | UX/UI Designer</div>
+      <div title="Logo and Return to Homepage">
+        Yu-Li Hunsicker | UX/UI Designer
+      </div>
     </Link>
   );
 }
