@@ -6,7 +6,12 @@ import resume from "../yhunsicker-resume.pdf";
 function Nav(props) {
   return (
     <div className="nav">
-      <NavLink to="/about" className="link" activeClassName="active-link">
+      <NavLink
+        to="/about"
+        className="link"
+        activeClassName="active-link"
+        title="About Page of Yhunsicker"
+      >
         About
       </NavLink>
       <NavLink to="/portfolio" className="link" activeClassName="active-link">
