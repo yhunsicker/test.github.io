@@ -12,7 +12,7 @@ const projectList = [
   {
     label: "Pfizer Pharmaceuticals | [Confidential]",
     description:
-      "I develop branded and unbranded digital experiences for people with rheumatoird arthritis at Wunderman Thompson.",
+      "I develop branded and unbranded digital experiences for people with rheumatoid arthritis at Wunderman Thompson.",
     image: logoPfizer,
     contact: true,
     url: "",

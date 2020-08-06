@@ -113,14 +113,14 @@ function About(props) {
               <div className="about-content-message">
                 Working as a Child Protection and Gender Specialist allowed me
                 the opportunity to travel and work for a range of organizations
-                including UNICEF Cambodia, local ngos, and schools. Throughout
+                including UNICEF Cambodia, local NGOs, and schools. Throughout
                 the years, I realized that technology (especially phones) played
-                a huge role in bringing opportunies to marginalized and at-risk
-                groups. I became interested in finding alternative avenues to
-                support, advocate, and provide tools to bridge the gap for
-                access to human rights needs including but limited to:
-                education, health, food, shelter, and much more. Thus, my
-                interest to coding began.
+                a huge role in bringing opportunities to marginalized and
+                at-risk groups. I became interested in finding alternative
+                avenues to support, advocate, and provide tools to bridge the
+                gap for access to human rights needs including education,
+                health, food, shelter, and much more. Thus, my interest in
+                coding began.
               </div>
             </div>
           </div>
@@ -146,15 +146,16 @@ function About(props) {
               <div className="about-content-title">Decided to Code</div>
               <div className="about-content-message">
                 My budding interest in using technology for social change led me
-                to join Le Wagon, a full-stack development program, in
-                Amsterdam, Netherlands. I dicovered I loved debugging front-end
-                code, but I was missing something and couldn’t quite figure it
-                out. It wasn’t until I attended a mandatory UX/UI lunch-&-learn
-                that I realized what I was missing. I missed working with an
-                diverse team, collecting data through interviews, and coming up
-                with solutions to issues discovered through research. That’s
-                when I knew I wanted to purse UX/UI Design: a perfect balance of
-                human interaction, front-end coding, and problem solving.
+                to join a full-stack development program where I discovered I
+                loved debugging front-end code. Throughout this journey, I was
+                missing something and couldn’t quite figure it out. It wasn’t
+                until I attended a mandatory UX/UI lunch-&-learn that I realized
+                what I was missing. I missed collecting data through interviews
+                and coming up with solutions to issues discovered through
+                research but wanted the also keep the creative aspect that came
+                with front-end development. That’s when I knew I wanted to purse
+                UX/UI Design: a perfect balance of human interaction, front-end
+                coding, and problem solving.
               </div>
             </div>
           </div>
@@ -177,13 +178,16 @@ function About(props) {
                 Became a User Experience Designer
               </div>
               <div className="about-content-message">
-                I very much have an interdisciplinary approach to user
-                experience design: my education in peace studies (with a focus
-                in human rights) and communications informs my approach to
-                human-centered design; earlier professional experience futher
-                underscore my aptitude for crafting digital experiences to
-                solving issues confronting humanity for a wide range of
-                audiences and users.
+                I have an interdisciplinary approach to user experience design:
+                my education in peace studies (with a focus in human rights) and
+                communications informs my approach to human-centered design;
+                earlier professional experience further underscore my aptitude
+                for crafting digital experiences to solving issues confronting
+                humanity for a wide range of audiences and users. Every day I am
+                guided by this Sasha Costanza-Chock quote, "The most valuable
+                'ingredient' in design justice is the full inclusion of people
+                with direct lived experience of the conditions the design team
+                is trying to change."
               </div>
             </div>
           </div>
