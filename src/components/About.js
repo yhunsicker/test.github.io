@@ -70,7 +70,7 @@ function About(props) {
               Human Rights
             </div>
             <div className="about-content-title-red full-stack">
-              Full-Stack-Development
+              Full Stack Development
             </div>
             <div className="about-content-title-red ux-design">UX Design</div>
           </div>
@@ -140,7 +140,7 @@ function About(props) {
                   "dont-display"
                 )}
               >
-                Full-Stack Development
+                Full Stack Development
               </div>
 
               <div className="about-content-title">Decided to Code</div>
@@ -152,10 +152,10 @@ function About(props) {
                 until I attended a mandatory UX/UI lunch-&-learn that I realized
                 what I was missing. I missed collecting data through interviews
                 and coming up with solutions to issues discovered through
-                research but wanted the also keep the creative aspect that came
-                with front-end development. That’s when I knew I wanted to purse
-                UX/UI Design: a perfect balance of human interaction, front-end
-                coding, and problem solving.
+                research but wanted to also keep the creative aspect that came
+                with front-end development. That’s when I knew I wanted to
+                pursue UX/UI Design: a perfect balance of human interaction,
+                front-end coding, and problem solving.
               </div>
             </div>
           </div>
@@ -183,11 +183,14 @@ function About(props) {
                 communications informs my approach to human-centered design;
                 earlier professional experience further underscore my aptitude
                 for crafting digital experiences to solving issues confronting
-                humanity for a wide range of audiences and users. Every day I am
-                guided by this Sasha Costanza-Chock quote, "The most valuable
-                'ingredient' in design justice is the full inclusion of people
-                with direct lived experience of the conditions the design team
-                is trying to change."
+                humanity for a wide range of audiences and users.
+              </div>
+              <br />
+              <div className="about-content-message">
+                Every day I am guided by this Sasha Costanza-Chock quote, "The
+                most valuable 'ingredient' in design justice is the full
+                inclusion of people with direct lived experience of the
+                conditions the design team is trying to change."
               </div>
             </div>
           </div>
