@@ -3,7 +3,7 @@
 }
 .about-title {
   margin-top: 98px;
-  font-size: 30px;
+  font-size: 24px;
   color: #b42d2f;
   font-weight: bold;
 }
@@ -13,7 +13,7 @@
   display: inline-block;
   margin-bottom: 48px;
   padding-bottom: 48px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .about-content-title-red {
-  font-size: 24px;
+  font-size: 20px;
   color: #b42d2f;
   font-weight: bold;
   text-align: left;
@@ -150,7 +150,7 @@ height to a div so the icon above it flexes correctly */
 
 .contact-box-title {
   padding-top: 77px;
-  font-size: 24px;
+  font-size: 20px;
   color: #b42d2f;
   font-weight: bold;
 }
@@ -161,6 +161,7 @@ height to a div so the icon above it flexes correctly */
   min-width: 312px;
   max-width: 70%;
   margin: 15px auto 0px auto;
+  font-size: 16px;
 }
 
 .contact-links {
@@ -214,6 +215,7 @@ height to a div so the icon above it flexes correctly */
   .contact-box-message {
     width: 100%;
   }
+
   .contact-box-title {
     padding-top: 61px;
   }

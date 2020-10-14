@@ -48,7 +48,7 @@ function About(props) {
 
   return (
     <div className="about">
-      <div className="about-title">About Me</div>
+      <div className="about-title">About me</div>
       <div className="about-header-sentence">
         The journey to my becoming a UX Designer was definitely the road less
         traveled and I loved every moment of it.

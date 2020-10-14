@@ -78,7 +78,7 @@ function App() {
                 value: 4,
                 random: true,
                 anim: {
-                  speed: 4,
+                  speed: 2,
                   size_min: 0.3,
                 },
               },

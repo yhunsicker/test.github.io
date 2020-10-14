@@ -30,7 +30,8 @@
 }
 
 .project-link {
-  color: #b42d2f;
+  /* color: #b42d2f; */
+  color: #0057ff;
   font-size: 16px;
   font-weight: 600;
   margin-left: 280px;
@@ -40,14 +41,16 @@
 }
 
 .project-link:hover {
-  color: #721d1e;
+  color: #b42d2f;
+  /* color: #0057ff; */
 }
 
 .project-link::after {
   content: "";
   width: 80%;
   height: 1px;
-  background: #b42d2f;
+  /* background: #b42d2f; */
+  /* background: #0057ff; */
   position: absolute;
   bottom: 0;
   left: 10%;
