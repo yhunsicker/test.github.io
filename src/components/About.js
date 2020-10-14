@@ -147,15 +147,14 @@ function About(props) {
               <div className="about-content-message">
                 My budding interest in using technology for social change led me
                 to join a full-stack development program where I discovered I
-                loved debugging front-end code. Throughout this journey, I was
-                missing something and couldn’t quite figure it out. It wasn’t
-                until I attended a mandatory UX/UI lunch-&-learn that I realized
-                what I was missing. I missed collecting data through interviews
-                and coming up with solutions to issues discovered through
-                research but wanted to also keep the creative aspect that came
-                with front-end development. That’s when I knew I wanted to
-                pursue UX/UI Design: a perfect balance of human interaction,
-                front-end coding, and problem solving.
+                loved debugging front-end code, but I was missing something and
+                couldn’t quite figure it out. It wasn’t until I attended a UX/UI
+                lunch-&-learn that I realized what I was missing. I missed
+                collecting data through interviews and coming up with solutions
+                to issues discovered through research but wanted to also keep
+                the creative aspect that came with front-end development. That’s
+                when I knew I wanted to pursue UX/UI Design: a perfect balance
+                of human interaction, front-end coding, and problem solving.
               </div>
             </div>
           </div>

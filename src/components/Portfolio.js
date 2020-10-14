@@ -35,7 +35,7 @@ const projectList = [
       "https://medium.com/@yhunsicker/ux-designer-for-cotripper-an-experience-based-travel-community-platform-for-single-mom-families-32e005ef85b0",
   },
   {
-    label: "optiMize | Website Design",
+    label: "OptiMize | Website Design",
     description:
       "Built optiPortal - a community platform where users can connect with fellows, organizers, mentors, and alumni.",
     image: logoOptimize,
