@@ -26,9 +26,9 @@ const projectList = [
     url: "",
   },
   {
-    label: "Cotripper | Responsive Design",
+    label: "CoTripper | Responsive Design",
     description:
-      "An experience-based travel & community platform for single-mom families.",
+      "CoTripper is an experience-based travel & community platform for single-mom families.",
     image: logoCotripper,
     contact: false,
     url:
@@ -37,7 +37,7 @@ const projectList = [
   {
     label: "OptiMize | Website Design",
     description:
-      "Built optiPortal - a community platform where users can connect with fellows, organizers, mentors, and alumni.",
+      "optiPortal is a community platform where users can connect with fellows, organizers, mentors, and alumni.",
     image: logoOptimize,
     contact: false,
     url: "https://medium.com/@yhunsicker/ux-design-for-optimize-bb536549484c",
@@ -45,7 +45,7 @@ const projectList = [
   {
     label: "D.C. Government | Service Design",
     description:
-      "Internal agency service design to improve service and satisfaction for the city. ",
+      "This was an internal agency service design project to improve services and satisfaction of DC.gov",
     image: logoDc,
     contact: false,
     url:
