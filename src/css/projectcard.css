@@ -1,12 +1,12 @@
 .project-label {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 630;
   margin-left: 21px;
   margin-top: 35px;
 }
 
 .project-card {
-  height: 450px;
+  height: 480px;
   width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.75);
   color: rgba(0, 0, 0, 0.75);
@@ -24,17 +24,18 @@
 }
 
 .project-description {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   margin: 10px 21px 0px 21px;
+  line-height: 30px;
 }
 
 .project-link {
   /* color: #b42d2f; */
   color: #0057ff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
-  margin-left: 280px;
+  /* margin-left: 280px; */
   position: absolute;
   bottom: 30px;
   right: 30px;

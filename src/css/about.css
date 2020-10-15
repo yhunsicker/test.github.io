@@ -13,8 +13,8 @@
   display: inline-block;
   margin-bottom: 48px;
   padding-bottom: 48px;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about-image-yuli {
@@ -36,21 +36,21 @@
 }
 
 .human-rights {
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 .full-stack {
-  margin-top: 270px;
+  margin-top: 443px;
 }
 
 .ux-design {
-  margin-top: 234px;
+  margin-top: 445px;
 }
 
 .about-content-message {
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
-  line-height: 1.25;
+  line-height: 30px;
   max-width: 472px;
 }
 
@@ -93,12 +93,12 @@
 
 .line-two {
   border-left: 1px solid #979797;
-  height: 160px;
+  height: 332px;
 }
 
 .line-three {
   border-left: 1px solid #979797;
-  height: 154px;
+  height: 355px;
 }
 
 /* this line is invisible and is just there to give 
@@ -158,10 +158,10 @@ height to a div so the icon above it flexes correctly */
 .contact-box-message {
   line-height: 1.25;
   color: rgba(0, 0, 0, 0.85);
-  min-width: 312px;
+  min-width: 340px;
   max-width: 70%;
   margin: 15px auto 0px auto;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .contact-links {

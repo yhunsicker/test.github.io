@@ -1,6 +1,6 @@
 .logo-home {
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
   margin-right: 58px;
 }
 
@@ -14,14 +14,14 @@
   color: #b42d2f;
   font-size: 30px;
   font-weight: bold;
-  line-height: 34px;
+  line-height: 40px;
 }
 
 .home-content {
   margin-top: 14px;
   width: 527px;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .button {
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.38;
   margin-top: 30px;
@@ -73,7 +73,7 @@
   .home-title {
     margin-top: 48px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     line-height: normal;
   }
 }

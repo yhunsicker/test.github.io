@@ -20,7 +20,7 @@ const projectList = [
   {
     label: "BI Pharmaceuticals | [Confidential]",
     description:
-      "I develop digital experiences for people with idiopathic pulmonary fibrosis (lung disease) at Wunderman Thompson",
+      "I develop digital experiences for people with idiopathic pulmonary fibrosis (lung disease) at Wunderman Thompson.",
     image: logoBi,
     contact: true,
     url: "",
