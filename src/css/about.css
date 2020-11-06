@@ -1,6 +1,9 @@
+/*About Section on Page */
+
 .about {
   text-align: center;
 }
+
 .about-title {
   margin-top: 98px;
   font-size: 24px;
@@ -124,6 +127,8 @@ height to a div so the icon above it flexes correctly */
   height: 80px;
 }
 
+/* Contact Section of Site */
+
 .contact-box-container {
   background-image: url(../images/yuli-river.jpg);
   background-position: center center;
@@ -138,21 +143,24 @@ height to a div so the icon above it flexes correctly */
 
 .contact-box {
   background: rgba(255, 255, 255, 0.8);
-  width: 402px;
-  border-radius: 3px;
-  height: 50%;
+  width: 500px;
+  /* border-radius: 3px; */
+  height: 100%;
   position: absolute;
-  top: 20%;
-  left: 5%;
-  max-height: 90%;
-  height: 312px;
+  /* top: 20%; */
+  /* left: 5%; */
+  max-height: 100%;
+  /* height: 312px; */
+  filter: brightness(95%);
 }
 
 .contact-box-title {
-  padding-top: 77px;
+  padding-top: 90px;
   font-size: 20px;
   color: #b42d2f;
   font-weight: bold;
+  text-align: left;
+  padding-left: 15%;
 }
 
 .contact-box-message {
@@ -162,37 +170,102 @@ height to a div so the icon above it flexes correctly */
   max-width: 70%;
   margin: 15px auto 0px auto;
   font-size: 20px;
+  text-align: left;
+  /* padding-top: px; */
 }
 
-.contact-links {
+/* .contact-links {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 150px;
   margin: 25px auto 0px auto;
-}
+} */
 
-.contact-link:hover {
+/* .contact-link:hover {
   fill: #b42d2f;
-}
+} */
 
 .linkedin-icon {
   height: 25px;
   width: 26px;
+  /* display: flex;
+  margin-top: 3%; */
+  /* padding-left: 15%; */
+}
+
+.SocialMediaOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  margin-top: 28px;
+  margin-left: 14%;
+  font-size: 20px;
+  /* color: #b42d2f; */
+}
+
+.SocialMediaOne:hover {
+  color: #b42d2f;
+}
+
+#connect {
+  padding-top: 6px;
+}
+
+.instagram-icon {
+  height: 26px;
+  width: 26px;
+  display: flex;
+  margin-top: 3%;
+  padding-left: 15%;
+}
+
+.SocialMediaTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+  margin-top: 22px;
+  margin-left: 12%;
+  font-size: 20px;
+  /* color: #b42d2f; */
+}
+
+.SocialMediaTwo:hover {
+  color: #b42d2f;
+}
+
+#second-paragraph {
+  padding-top: 20px;
 }
 
 .email-icon {
   height: 27px;
   width: 27px;
-  display: block;
-  margin-right: 3px;
+  display: flex;
+  margin-top: 10%;
+  padding-left: 16%;
 }
 
-.instagram-icon {
-  height: 23px;
-  width: 23px;
-  display: block;
+.SocialMediaThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+  margin-top: 22px;
+  margin-left: 13%;
+  font-size: 20px;
+  /* color: #b42d2f; */
 }
+
+.SocialMediaThree:hover {
+  color: #b42d2f;
+}
+
+/* #second-paragraph {
+  padding-top: 20px;
+} */
 
 .dont-display {
   display: none;
@@ -200,16 +273,28 @@ height to a div so the icon above it flexes correctly */
 
 @media (max-width: 650px) {
   .contact-box-container {
+    background-image: url(../images/yuli-river.jpg);
     padding-bottom: 335px;
+    height: 315px;
+    background-size: cover;
   }
 
   .contact-box {
-    width: 350px;
-    height: 280px;
+    width: 390px;
+    height: 553px;
     top: 0;
-    margin-top: 24px;
-    left: 50%;
+    margin-top: 40px;
+    left: 44%;
     margin-left: -175px;
+  }
+
+  .contact-box-title {
+    padding-top: 90px;
+    font-size: 20px;
+    color: #b42d2f;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 9.5%;
   }
 
   .contact-box-message {
@@ -218,6 +303,82 @@ height to a div so the icon above it flexes correctly */
 
   .contact-box-title {
     padding-top: 61px;
+  }
+
+  .contact-box-message {
+    line-height: 1.25;
+    color: rgba(0, 0, 0, 0.85);
+    min-width: 340px;
+    max-width: 70%;
+    margin: 15px auto 0px auto;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 7%;
+  }
+
+  .SocialMediaOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 28px;
+    margin-left: 10%;
+    font-size: 20px;
+    /* color: #b42d2f; */
+  }
+
+  .SocialMediaOne:hover {
+    color: #b42d2f;
+  }
+
+  /* .instagram-icon {
+    height: 26px;
+    width: 26px;
+    display: flex;
+    margin-top: 3%;
+    padding-left: 0;
+  } */
+
+  .SocialMediaTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    margin-top: 22px;
+    margin-left: 8%;
+    font-size: 20px;
+    /* color: #b42d2f; */
+  }
+
+  .SocialMediaTwo:hover {
+    color: #b42d2f;
+  }
+
+  #second-paragraph {
+    padding-top: 20px;
+  }
+
+  /* .email-icon {
+    height: 27px;
+    width: 27px;
+    display: flex;
+    margin-top: 10%;
+    padding-left: 16%;
+  } */
+
+  .SocialMediaThree {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    margin-top: 22px;
+    margin-left: 8.5%;
+    font-size: 20px;
+    /* color: #b42d2f; */
+  }
+
+  .SocialMediaThree:hover {
+    color: #b42d2f;
   }
 
   .about {
@@ -229,6 +390,7 @@ height to a div so the icon above it flexes correctly */
     color: #b42d2f;
     font-weight: bold;
   }
+
   .about-header-sentence {
     margin-top: 16px;
     max-width: 458px;
@@ -299,7 +461,7 @@ height to a div so the icon above it flexes correctly */
 
   .line-three {
     border-left: 1px solid #979797;
-    height: 455px;
+    height: 515px;
   }
 
   /* this line is invisible and is just there to give 
@@ -323,6 +485,6 @@ height to a div so the icon above it flexes correctly */
   .ga-icon {
     width: 80px;
     height: 80px;
-    margin-top: -92px;
+    margin-top: -150px;
   }
 }

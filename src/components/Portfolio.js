@@ -73,7 +73,7 @@ function Portfolio(props) {
 
   return (
     <div>
-      <div className="portfolio-title">Some of my work</div>
+      <div className="portfolio-title">View my work</div>
       <div className="portfolio-projects">{projects}</div>
     </div>
   );

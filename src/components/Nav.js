@@ -29,8 +29,19 @@ function Nav(props) {
         className="link"
         title="View or Download Yhunsicker's Resume"
       >
+        
         Resume
       </a>
+    
+      <NavLink
+        to="/LetsChat"
+        className="link"
+        activeClassName="active-link"
+        title="Lets Chat"
+      > 
+      Let's Chat
+      </NavLink> 
+     
     </div>
   );
 }

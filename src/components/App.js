@@ -5,6 +5,7 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Header from "./Header";
 import About from "./About";
+import LetsChat from "./LetsChat";
 import ErrorPage from "./Error";
 import Footer from "./Footer";
 import { useLocation } from "react-router-dom";
@@ -134,6 +135,7 @@ function App() {
         <Route path="/" component={Home} exact></Route>
         <Route path="/about" component={About} exact></Route>
         <Route path="/portfolio" component={Portfolio}></Route>
+        <Route path="/letschat" component={LetsChat}></Route>
         <Route component={Home}></Route>
       </Switch>
       {!isHome && <Footer></Footer>}

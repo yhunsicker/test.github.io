@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/about.css";
-import ContactBox from "./ContactBox";
+// import ContactBox from "./ContactBox";
 import yuliAbout from "../images/yuli-about.jpg";
 import ovalIcon from "../images/oval.png";
 import travelIcon from "../images/travel.jpg";
@@ -186,7 +186,7 @@ function About(props) {
           </div>
         </div>
       </div>
-      <ContactBox></ContactBox>
+      {/* <ContactBox></ContactBox> */}
     </div>
   );
 }

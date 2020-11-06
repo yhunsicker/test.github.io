@@ -39,6 +39,9 @@ function MobileNav(props) {
           <Link to="/portfolio" onClick={onClick} className="mobile-nav-item">
             Portfolio
           </Link>
+        {/* <Link to="letschat" onClick={onClick} className="mobile-nav-item">
+          Let's Chat
+        </Link> */}
           <a
             target="_blank"
             href={resume}
@@ -47,6 +50,10 @@ function MobileNav(props) {
           >
             Resume
           </a>
+          <Link to="letschat" onClick={onClick} className="mobile-nav-item">
+          Let's Chat
+          </Link>
+
         </div>
       ) : (
         <div className="mobile-nav-closed" onClick={onClick}>
