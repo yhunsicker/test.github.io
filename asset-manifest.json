@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5d3a5e.chunk.css",
-    "main.js": "/static/js/main.03d10d21.chunk.js",
-    "main.js.map": "/static/js/main.03d10d21.chunk.js.map",
+    "main.css": "/static/css/main.96114c01.chunk.css",
+    "main.js": "/static/js/main.41412843.chunk.js",
+    "main.js.map": "/static/js/main.41412843.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7370b95c.js",
     "runtime-main.js.map": "/static/js/runtime-main.7370b95c.js.map",
     "static/js/2.32ee6a08.chunk.js": "/static/js/2.32ee6a08.chunk.js",
     "static/js/2.32ee6a08.chunk.js.map": "/static/js/2.32ee6a08.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ab26198cae055ef78cfc52bf3ab71ff3.js": "/precache-manifest.ab26198cae055ef78cfc52bf3ab71ff3.js",
+    "precache-manifest.d43d1125b23c16e5a270a637fea04f00.js": "/precache-manifest.d43d1125b23c16e5a270a637fea04f00.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4d5d3a5e.chunk.css.map": "/static/css/main.4d5d3a5e.chunk.css.map",
+    "static/css/main.96114c01.chunk.css.map": "/static/css/main.96114c01.chunk.css.map",
     "static/js/2.32ee6a08.chunk.js.LICENSE.txt": "/static/js/2.32ee6a08.chunk.js.LICENSE.txt",
     "static/media/amsterdam.jpg": "/static/media/amsterdam.c415d15a.jpg",
     "static/media/ga.jpg": "/static/media/ga.e4728b8d.jpg",
-    "static/media/project-bi.jpg": "/static/media/project-bi.c37798df.jpg",
-    "static/media/project-cotripper.jpg": "/static/media/project-cotripper.5bed6b8a.jpg",
-    "static/media/project-dc.jpg": "/static/media/project-dc.effb12b3.jpg",
-    "static/media/project-ghostpay.jpg": "/static/media/project-ghostpay.8fc16a2c.jpg",
-    "static/media/project-optimize.jpg": "/static/media/project-optimize.e0c2f503.jpg",
-    "static/media/project-pfizer.jpg": "/static/media/project-pfizer.f656f2c3.jpg",
+    "static/media/project-bi.jpg": "/static/media/project-bi.e7648382.jpg",
+    "static/media/project-cotripper.jpg": "/static/media/project-cotripper.df248db4.jpg",
+    "static/media/project-dc.jpg": "/static/media/project-dc.b8faa1e8.jpg",
+    "static/media/project-ghostpay.jpg": "/static/media/project-ghostpay.5eff2251.jpg",
+    "static/media/project-optimize.jpg": "/static/media/project-optimize.342f4d7c.jpg",
+    "static/media/project-pfizer.jpg": "/static/media/project-pfizer.e97a2309.jpg",
     "static/media/travel.jpg": "/static/media/travel.2b176d97.jpg",
     "static/media/yhunsicker-resume.pdf": "/static/media/yhunsicker-resume.52333681.pdf",
     "static/media/yuli-about.jpg": "/static/media/yuli-about.4b5937dd.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.7370b95c.js",
     "static/js/2.32ee6a08.chunk.js",
-    "static/css/main.4d5d3a5e.chunk.css",
-    "static/js/main.03d10d21.chunk.js"
+    "static/css/main.96114c01.chunk.css",
+    "static/js/main.41412843.chunk.js"
   ]
 }
