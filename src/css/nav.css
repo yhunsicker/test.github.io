@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 300px;
+  width: 330px;
   justify-content: space-between;
   align-items: center;
 }
@@ -15,11 +15,11 @@ a {
 }
 
 .active-link {
-  color: #b42d2f;
+  color: #a31c24;
 }
 
 .link:hover {
-  color: #b42d2f;
+  color: #a31c24;
 }
 
 @media (max-width: 650px) {

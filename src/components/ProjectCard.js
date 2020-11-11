@@ -14,6 +14,7 @@ function ProjectCard(props) {
       >
         {props.contact ? "contact me" : "check it out"}
       </a>
+      
     </div>
   );
 }

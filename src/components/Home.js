@@ -14,7 +14,7 @@ function Home(props) {
 
   return (
     <div className="home-container">
-      <img src={logo} className="logo-home" alt="home-logo.png"></img>
+      <img src={logo} className="logo-home" alt="pitbull and yu-li.png"></img>
       <div>
         <div className="home-title">
           <div>Hi, I’m Yu-Li Hunsicker!</div>
@@ -23,7 +23,7 @@ function Home(props) {
         <div className="home-content">
           I produce elegant solutions with a human-centered design approach to
           help organizations/companies transcend international boundaries
-          through accessible and impactful UX/UI Designs.
+          through inclusive and impactful UX/UI Designs.
         </div>
         <Button className="button"></Button>
       </div>

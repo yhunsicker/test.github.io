@@ -56,7 +56,7 @@ function About(props) {
       <img
         className={pickClassName("about-image-yuli", "dont-display")}
         src={yuliAbout}
-        alt="yuli-about"
+        alt="yuli with blonde hair peeping out"
       ></img>
       <div className="about-sidebar-container">
         <div>
@@ -84,7 +84,7 @@ function About(props) {
             <div>
               <div className="about-content-title">Interesting Fact</div>
               <div className="about-content-message">
-                I grew up with a monkey.
+                I've been to 49 States.
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ function About(props) {
               <div className="about-content-message">
               I have an interdisciplinary approach to user experience design: my education in 
               peace studies (focusing on human rights) and communications informs my practice to 
-              human-centered design.  Earlier professional experiences further underscore my 
+              human-centered design. Earlier professional experiences further underscore my 
               aptitude for crafting digital experiences to solve issues confronting humanity for 
               many audiences and users.
               </div>
